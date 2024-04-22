@@ -1,6 +1,3 @@
-{{--Test after merge. Was Conflicted Code--}}
-
-{{--One more test--}}
 <x-layout>
     <x-breadcrumbs class="mb-4"
                    :links="['Jobs' => route('jobs.index')]"/>
@@ -33,7 +30,7 @@
                                :options="\App\Models\Job::$category" />
             </div>
         </div>
-            <button class="w-full">Filter</button>
+            <x-button class="w-full">Filter</x-button>
         </form>
     </x-card>
 
