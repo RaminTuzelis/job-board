@@ -15,7 +15,12 @@ class Job extends Model
     use HasFactory;
 
     protected $fillable = [
-        'title', 'location', 'salary', 'description', 'experience', 'category'
+        'title',
+        'location',
+        'salary',
+        'description',
+        'experience',
+        'category'
     ];
 
     // PHP 7.4
